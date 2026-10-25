@@ -167,20 +167,45 @@ export const Preloader: React.FC<PreloaderProps> = ({ onComplete }) => {
           <Compass size={15} style={{ color: '#dfba57' }} />
         </div>
 
-        <h2
+        <div
           style={{
-            fontFamily: 'var(--font-cinzel)',
-            fontSize: 'clamp(2.4rem, 7vw, 4.8rem)',
-            fontWeight: 800,
-            letterSpacing: '0.18em',
-            color: '#fdfbf7',
-            textTransform: 'uppercase',
-            lineHeight: 1.15,
-            textShadow: '0 8px 32px rgba(0, 0, 0, 0.85), 0 0 45px rgba(223, 186, 87, 0.3)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 'clamp(14px, 2.8vw, 24px)',
+            flexWrap: 'wrap',
           }}
         >
-          CLUB MATCHBOX
-        </h2>
+          <img
+            src={EVENT_CONFIG.assets.matchboxLogo}
+            alt="Club Matchbox Logo"
+            style={{
+              height: 'clamp(34px, 5.5vw, 54px)',
+              objectFit: 'contain',
+              background: '#fdfbf7',
+              padding: '4px 10px',
+              borderRadius: '8px',
+              border: '1px solid rgba(223, 186, 87, 0.6)',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.5), 0 0 25px rgba(223, 186, 87, 0.25)',
+              display: 'block',
+            }}
+          />
+          <h2
+            style={{
+              fontFamily: 'var(--font-cinzel)',
+              fontSize: 'clamp(2.4rem, 7vw, 4.8rem)',
+              fontWeight: 800,
+              letterSpacing: '0.18em',
+              color: '#fdfbf7',
+              textTransform: 'uppercase',
+              lineHeight: 1.15,
+              textShadow: '0 8px 32px rgba(0, 0, 0, 0.85), 0 0 45px rgba(223, 186, 87, 0.3)',
+              margin: 0,
+            }}
+          >
+            CLUB MATCHBOX
+          </h2>
+        </div>
 
         <div
           style={{
