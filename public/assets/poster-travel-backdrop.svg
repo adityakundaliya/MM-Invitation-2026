@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <!-- Soft Sepia Gradients -->
+    <linearGradient id="sepiaBuildingLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a6744" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#4a3118" stop-opacity="0.04" />
+    </linearGradient>
+
+    <linearGradient id="sepiaBuildingRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8a6744" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#4a3118" stop-opacity="0.04" />
+    </linearGradient>
+
+    <radialGradient id="compassGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dfba57" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#dfba57" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- ======================================================== -->
+  <!-- 1. ARCHITECTURAL PERSPECTIVE (Left & Right City Streetscape) -->
+  <!-- ======================================================== -->
+  <!-- Left Side Classical Building Perspective Facades -->
+  <g opacity="0.55">
+    <!-- Main Street Facade Outline -->
+    <polygon points="0,0 260,0 360,540 320,1080 0,1080" fill="url(#sepiaBuildingLeft)" />
+    <line x1="260" y1="0" x2="360" y2="540" stroke="#7d5937" stroke-width="1.5" stroke-opacity="0.25" />
+    <line x1="360" y1="540" x2="320" y2="1080" stroke="#7d5937" stroke-width="1.5" stroke-opacity="0.25" />
+    
+    <!-- Architectural Cornices & Window Rows -->
+    <line x1="40" y1="120" x2="280" y2="120" stroke="#7d5937" stroke-width="1" stroke-opacity="0.2" />
+    <line x1="40" y1="240" x2="300" y2="240" stroke="#7d5937" stroke-width="1.2" stroke-opacity="0.22" />
+    <line x1="40" y1="360" x2="330" y2="360" stroke="#7d5937" stroke-width="1" stroke-opacity="0.2" />
+    <line x1="40" y1="480" x2="350" y2="480" stroke="#7d5937" stroke-width="1.5" stroke-opacity="0.25" />
+    <line x1="40" y1="620" x2="345" y2="620" stroke="#7d5937" stroke-width="1" stroke-opacity="0.18" />
+    <line x1="40" y1="760" x2="335" y2="760" stroke="#7d5937" stroke-width="1" stroke-opacity="0.18" />
+
+    <!-- Repeated Arch Windows -->
+    <path d="M 120,180 A 18,18 0 0,1 156,180 L 156,210 L 120,210 Z M 200,180 A 18,18 0 0,1 236,180 L 236,210 L 200,210 Z" fill="none" stroke="#7d5937" stroke-width="1" stroke-opacity="0.22" />
+    <path d="M 120,300 A 18,18 0 0,1 156,300 L 156,330 L 120,330 Z M 200,300 A 18,18 0 0,1 236,300 L 236,330 L 200,330 Z M 280,300 A 18,18 0 0,1 316,300 L 316,330 L 280,330 Z" fill="none" stroke="#7d5937" stroke-width="1" stroke-opacity="0.22" />
+    <path d="M 120,420 A 18,18 0 0,1 156,420 L 156,450 L 120,450 Z M 200,420 A 18,18 0 0,1 236,420 L 236,450 L 200,450 Z M 280,420 A 18,18 0 0,1 316,420 L 316,450 L 280,450 Z" fill="none" stroke="#7d5937" stroke-width="1" stroke-opacity="0.22" />
+  </g>
+
+  <!-- Right Side Classical Building Perspective Facades -->
+  <g opacity="0.55">
+    <polygon points="1920,0 1660,0 1560,540 1600,1080 1920,1080" fill="url(#sepiaBuildingRight)" />
+    <line x1="1660" y1="0" x2="1560" y2="540" stroke="#7d5937" stroke-width="1.5" stroke-opacity="0.25" />
+    <line x1="1560" y1="540" x2="1600" y2="1080" stroke="#7d5937" stroke-width="1.5" stroke-opacity="0.25" />
+
+    <!-- Architectural Cornices & Windows -->
+    <line x1="1880" y1="120" x2="1640" y2="120" stroke="#7d5937" stroke-width="1" stroke-opacity="0.2" />
+    <line x1="1880" y1="240" x2="1620" y2="240" stroke="#7d5937" stroke-width="1.2" stroke-opacity="0.22" />
+    <line x1="1880" y1="360" x2="1590" y2="360" stroke="#7d5937" stroke-width="1" stroke-opacity="0.2" />
+    <line x1="1880" y1="480" x2="1570" y2="480" stroke="#7d5937" stroke-width="1.5" stroke-opacity="0.25" />
+    <line x1="1880" y1="620" x2="1575" y2="620" stroke="#7d5937" stroke-width="1" stroke-opacity="0.18" />
+    <line x1="1880" y1="760" x2="1585" y2="760" stroke="#7d5937" stroke-width="1" stroke-opacity="0.18" />
+
+    <path d="M 1764,180 A 18,18 0 0,0 1800,180 L 1800,210 L 1764,210 Z M 1684,180 A 18,18 0 0,0 1720,180 L 1720,210 L 1684,210 Z" fill="none" stroke="#7d5937" stroke-width="1" stroke-opacity="0.22" />
+    <path d="M 1764,300 A 18,18 0 0,0 1800,300 L 1800,330 L 1764,330 Z M 1684,300 A 18,18 0 0,0 1720,300 L 1720,330 L 1684,330 Z M 1604,300 A 18,18 0 0,0 1640,300 L 1640,330 L 1604,330 Z" fill="none" stroke="#7d5937" stroke-width="1" stroke-opacity="0.22" />
+    <path d="M 1764,420 A 18,18 0 0,0 1800,420 L 1800,450 L 1764,450 Z M 1684,420 A 18,18 0 0,0 1720,420 L 1720,450 L 1684,450 Z M 1604,420 A 18,18 0 0,0 1640,420 L 1640,450 L 1604,450 Z" fill="none" stroke="#7d5937" stroke-width="1" stroke-opacity="0.22" />
+  </g>
+
+  <!-- Distant Bridge Arch Silhouette (Center background, softly faded) -->
+  <g opacity="0.18">
+    <path d="M 720,620 Q 960,540 1200,620" stroke="#684a2d" stroke-width="2.5" fill="none" />
+    <path d="M 720,635 Q 960,560 1200,635" stroke="#684a2d" stroke-width="1.5" fill="none" />
+    <!-- Suspension cables -->
+    <line x1="800" y1="600" x2="800" y2="650" stroke="#684a2d" stroke-width="1" />
+    <line x1="860" y1="580" x2="860" y2="650" stroke="#684a2d" stroke-width="1" />
+    <line x1="920" y1="565" x2="920" y2="650" stroke="#684a2d" stroke-width="1" />
+    <line x1="960" y1="560" x2="960" y2="650" stroke="#684a2d" stroke-width="1" />
+    <line x1="1000" y1="565" x2="1000" y2="650" stroke="#684a2d" stroke-width="1" />
+    <line x1="1060" y1="580" x2="1060" y2="650" stroke="#684a2d" stroke-width="1" />
+    <line x1="1120" y1="600" x2="1120" y2="650" stroke="#684a2d" stroke-width="1" />
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 2. DOTTED FLIGHT PATHS WITH AIRPLANES (From Poster) -->
+  <!-- ======================================================== -->
+  <!-- Upper Curving Flight Trail with Airplane -->
+  <g opacity="0.65">
+    <path d="M 850,110 C 960,70 1080,75 1180,105 C 1220,118 1260,135 1290,150" 
+          stroke="#0c1c38" stroke-width="1.8" stroke-dasharray="7,7" stroke-linecap="round" fill="none" />
+    
+    <!-- Mini Airplane at (1220, 118) heading east-northeast -->
+    <g transform="translate(1220, 118) rotate(22) scale(0.9)">
+      <path d="M 0,-14 L 4,-3 L 18,3 L 18,7 L 4,5 L 3,13 L 8,16 L 8,19 L 0,17 L -8,19 L -8,16 L -3,13 L -4,5 L -18,7 L -18,3 L -4,-3 Z" 
+            fill="#0c1c38" />
+    </g>
+  </g>
+
+  <!-- Lower Curving Flight Trail with Airplane -->
+  <g opacity="0.65">
+    <path d="M 760,960 C 880,940 980,970 1080,930" 
+          stroke="#0c1c38" stroke-width="1.8" stroke-dasharray="7,7" stroke-linecap="round" fill="none" />
+    
+    <!-- Mini Airplane at (1030, 945) -->
+    <g transform="translate(1030, 945) rotate(-24) scale(0.85)">
+      <path d="M 0,-14 L 4,-3 L 18,3 L 18,7 L 4,5 L 3,13 L 8,16 L 8,19 L 0,17 L -8,19 L -8,16 L -3,13 L -4,5 L -18,7 L -18,3 L -4,-3 Z" 
+            fill="#0c1c38" />
+    </g>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 3. VINTAGE TRAVEL STAMPS & POSTMARKS (From Poster) -->
+  <!-- ======================================================== -->
+  <!-- Upper-Right Airmail Cancellation Stamp -->
+  <g transform="translate(1750, 180) rotate(-12)" opacity="0.55">
+    <!-- Outer scalloped circle -->
+    <circle cx="0" cy="0" r="52" stroke="#841924" stroke-width="2.5" fill="none" />
+    <circle cx="0" cy="0" r="46" stroke="#841924" stroke-width="1" stroke-dasharray="4,3" fill="none" />
+    <!-- Airplane in center -->
+    <g transform="scale(1.2)">
+      <path d="M 0,-14 L 4,-3 L 18,3 L 18,7 L 4,5 L 3,13 L 8,16 L 8,19 L 0,17 L -8,19 L -8,16 L -3,13 L -4,5 L -18,7 L -18,3 L -4,-3 Z" fill="#841924" />
+    </g>
+    <!-- Wavy postmark lines -->
+    <path d="M 60,-20 Q 90,-35 120,-20 T 180,-20 M 60,0 Q 90,-15 120,0 T 180,0 M 60,20 Q 90,5 120,20 T 180,20" 
+          stroke="#841924" stroke-width="2" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Lower-Right Circular Postal Seal -->
+  <g transform="translate(1360, 960) rotate(8)" opacity="0.5">
+    <circle cx="0" cy="0" r="44" stroke="#0c1c38" stroke-width="2" fill="none" />
+    <circle cx="0" cy="0" r="38" stroke="#0c1c38" stroke-width="1" stroke-dasharray="3,3" fill="none" />
+    <g transform="scale(1.0) rotate(45)">
+      <path d="M 0,-14 L 4,-3 L 18,3 L 18,7 L 4,5 L 3,13 L 8,16 L 8,19 L 0,17 L -8,19 L -8,16 L -3,13 L -4,5 L -18,7 L -18,3 L -4,-3 Z" fill="#0c1c38" />
+    </g>
+    <!-- Wavy lines -->
+    <path d="M 50,-15 Q 75,-28 100,-15 T 150,-15 M 50,0 Q 75,-13 100,0 T 150,0 M 50,15 Q 75,2 100,15 T 150,15" 
+          stroke="#0c1c38" stroke-width="1.8" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Lower-Left Vintage Travel Stamp (France / Passport to Plate) -->
+  <g transform="translate(180, 820) rotate(-6)" opacity="0.45">
+    <rect x="-45" y="-55" width="90" height="110" rx="3" stroke="#841924" stroke-width="2" stroke-dasharray="5,4" fill="none" />
+    <text x="0" y="-36" font-family="'Cinzel', serif" font-weight="800" font-size="11" fill="#841924" text-anchor="middle" letter-spacing="2">PASSPORT</text>
+    <!-- Eiffel Tower Silhouette -->
+    <path d="M 0,-24 L 6,18 L -6,18 Z M -12,18 L 12,18 M -18,30 L 18,30 L 14,18 L -14,18 Z M -8,30 Q 0,22 8,30" 
+          stroke="#841924" stroke-width="1.8" fill="none" stroke-linejoin="round" />
+    <text x="0" y="44" font-family="'Cinzel', serif" font-weight="700" font-size="9" fill="#841924" text-anchor="middle" letter-spacing="1">TO PLATE</text>
+  </g>
+
+  <!-- Mid-Left Vintage Stamp (Japan Torii) -->
+  <g transform="translate(240, 940) rotate(10)" opacity="0.45">
+    <rect x="-35" y="-42" width="70" height="84" rx="3" stroke="#841924" stroke-width="1.8" stroke-dasharray="4,3" fill="none" />
+    <text x="0" y="-28" font-family="'Cinzel', serif" font-weight="800" font-size="9" fill="#841924" text-anchor="middle" letter-spacing="1.5">2026</text>
+    <path d="M -22,-14 L 22,-14 M -20,-8 L 20,-8 M -12,-8 L -12,22 M 12,-8 L 12,22 M -16,4 L 16,4" 
+          stroke="#841924" stroke-width="2" fill="none" stroke-linecap="round" />
+    <text x="0" y="34" font-family="'Cinzel', serif" font-weight="700" font-size="8" fill="#841924" text-anchor="middle" letter-spacing="1">CUL-GND</text>
+  </g>
+
+  <!-- Subtle Compass Rose in the Background Center-Left -->
+  <g transform="translate(560, 480)" opacity="0.16">
+    <circle cx="0" cy="0" r="90" stroke="#b89363" stroke-width="1" stroke-dasharray="4,4" fill="none" />
+    <circle cx="0" cy="0" r="60" stroke="#b89363" stroke-width="1.2" fill="none" />
+    <!-- 8 points star -->
+    <polygon points="0,-80 8,-20 60,-60 20,-8 80,0 20,8 60,60 8,20 0,80 -8,20 -60,60 -20,8 -80,0 -20,-8 -60,-60 -8,-20" fill="#b89363" />
+    <circle cx="0" cy="0" r="8" fill="#841924" />
+  </g>
+</svg>
